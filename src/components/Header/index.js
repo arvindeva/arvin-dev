@@ -1,9 +1,10 @@
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import Hamburger from './Hamburger';
+import Link from '../Link';
+import Hamburger from '../Hamburger';
+import DesktopLinks from './DesktopLinks';
 import MobileOnly from '../MobileOnly';
 import DesktopOnly from '../DesktopOnly';
 
@@ -24,16 +25,16 @@ const StyledHeader = styled.header`
       margin: 0;
     }
 
-    .desktop-links {
+    /* .desktop-links {
       display: none;
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
+    } */
 
-    .desktop-link {
+    /* .desktop-link {
       padding: 0 1em;
-    }
+    } */
   }
 
   .mobile-links {
@@ -42,25 +43,6 @@ const StyledHeader = styled.header`
     }
   }
 `;
-
-const StyledLink = styled(Link)`
-  color: white;
-  text-decoration: none;
-`;
-
-const DesktopLinks = () => (
-  <div className="desktop-links">
-    <div className="desktop-link">
-      <StyledLink to="/portfolio">Portfolio</StyledLink>
-    </div>
-    <div className="desktop-link">
-      <StyledLink to="/blog">Blog</StyledLink>
-    </div>
-    <div className="desktop-link">
-      <StyledLink to="/contact">Contact</StyledLink>
-    </div>
-  </div>
-);
 
 const Header = ({ siteTitle }) => {
   const [open, setOpen] = useState(false);
@@ -77,7 +59,7 @@ const Header = ({ siteTitle }) => {
       <div className="wrapper">
         <div>
           <h1 className="title">
-            <StyledLink to="/">{siteTitle}</StyledLink>
+            <Link to="/">{siteTitle}</Link>
           </h1>
         </div>
         <MobileOnly>
