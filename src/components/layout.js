@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 
 const Main = styled.main`
   min-height: 100vh;
-  text-align: center;
+  /* text-align: center; */
 `;
 
 const Layout = ({ children }) => (

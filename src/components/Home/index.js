@@ -8,6 +8,7 @@ const Home = () => (
     <h1>
       Hi, I'm Arvin!
       <span role="img" aria-label="poop-emoji">
+        {' '}
         💩
       </span>
     </h1>
