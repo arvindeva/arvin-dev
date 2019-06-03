@@ -2,13 +2,12 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Home from '../components/Home';
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Home />
+    <SEO title="Contact" />
+    <h1>Contact</h1>
   </Layout>
 );
 
-export default IndexPage;
+export default ContactPage;
