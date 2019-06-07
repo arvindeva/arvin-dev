@@ -19,9 +19,9 @@ const DesktopLinks = () => (
     <div className="desktop-link">
       <Link to="/portfolio">Portfolio</Link>
     </div>
-    <div className="desktop-link">
+    {/* <div className="desktop-link">
       <Link to="/blog">Blog</Link>
-    </div>
+    </div> */}
     <div className="desktop-link">
       <Link to="/contact">Contact</Link>
     </div>

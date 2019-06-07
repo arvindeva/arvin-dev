@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Link from '../Link';
 import Hamburger from '../Hamburger';
 import DesktopLinks from './DesktopLinks';
+import MobileLinks from './MobileLinks';
 import MobileOnly from '../MobileOnly';
 import DesktopOnly from '../DesktopOnly';
 
@@ -24,17 +25,6 @@ const StyledHeader = styled.header`
     .title {
       margin: 0;
     }
-
-    /* .desktop-links {
-      display: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    } */
-
-    /* .desktop-link {
-      padding: 0 1em;
-    } */
   }
 
   .mobile-links {
@@ -69,13 +59,7 @@ const Header = ({ siteTitle }) => {
           <DesktopLinks />
         </DesktopOnly>
       </div>
-      {open ? (
-        <div className="mobile-links">
-          <div className="mobile-link">Portfolio</div>
-          <div className="mobile-link">Blog</div>
-          <div className="mobile-link">Contact</div>
-        </div>
-      ) : null}
+      <MobileOnly>{open ? <MobileLinks /> : null}</MobileOnly>
     </StyledHeader>
   );
 };
