@@ -10,20 +10,20 @@ import MobileOnly from '../MobileOnly';
 import DesktopOnly from '../DesktopOnly';
 
 const StyledHeader = styled.header`
-  background: hsla(0, 0%, 0%, 0.9);
   margin-bottom: 1.45rem;
   padding: 1rem 1rem;
   color: white;
-
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 800px;
     .title {
       margin: 0;
+      
     }
   }
 
@@ -38,11 +38,7 @@ const Header = ({ siteTitle }) => {
   const [open, setOpen] = useState(false);
 
   const onOpen = () => {
-    if (open) {
-      setOpen(false);
-    } else {
-      setOpen(true);
-    }
+    setOpen(!open);
   };
   return (
     <StyledHeader>

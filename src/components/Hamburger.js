@@ -25,7 +25,7 @@ const StyledHamburger = styled.div`
   .hamburger.active .hamburger-inner,
   .hamburger.active .hamburger-inner::before,
   .hamburger.active .hamburger-inner::after {
-    background-color: white;
+    background-color: black;
   }
 
   .hamburger-box {
@@ -45,7 +45,7 @@ const StyledHamburger = styled.div`
   .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: white;
+    background-color: black;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

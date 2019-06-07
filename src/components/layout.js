@@ -8,14 +8,13 @@ import Header from './Header';
 
 const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 800px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 `;
 
 const Main = styled.main`
   min-height: 100vh;
-  /* text-align: center; */
 `;
 
 const Layout = ({ children }) => (
@@ -36,9 +35,14 @@ const Layout = ({ children }) => (
         <Wrapper>
           <Main>{children}</Main>
           <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()},{' '}
+            <span>
+              Made with{' '}
+              <span className="curry" role="img" aria-label="poop-emoji">
+                🍛
+              </span>{' '}
+              by Arvindeva Wibisono.
+            </span>
           </footer>
         </Wrapper>
       </>

@@ -1,20 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledHome = styled.div``;
+import { UnderlinedLink } from '../Link';
+
+const StyledHome = styled.div`
+  .curry {
+    font-size: 3rem;
+  }
+`;
 
 const Home = () => (
   <StyledHome>
     <h1>
-      Hi!
+      Hi!{' '}
       <span role="img" aria-label="poop-emoji">
-        {' '}
-        💩
+        👋
       </span>
     </h1>
     <p>
-      I'm Arvindeva Wibisono (Arvin), a front-end developer currently working at
-      Warung Pintar. I make websites and web applications, mostly using React.
+      I'm <b>Arvindeva Wibisono</b> (<b>Arvin</b>), a <b>front-end developer</b>{' '}
+      currently working at <b>Warung Pintar</b>. I make websites and web
+      applications, mostly using <b>React</b>. Feel free to check my projects at
+      my <UnderlinedLink to="/portfolio">Portfolio</UnderlinedLink> page.
+    </p>
+    <h2>Skills</h2>
+    <p>
+      HTML, CSS, JavaScript, ES6, Node.js, React, Redux, MobX, GraphQL, Apollo
+      Client/Server, Styled Components, Sass, Webpack, Express, git.
     </p>
   </StyledHome>
 );

@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
   }
   body {
+
+    color: hsla(0,0%,0%,0.9);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,5 +17,9 @@ export const GlobalStyle = createGlobalStyle`
 
   ul {
     list-style: none;
+  }
+
+  a {
+    color: hsla(0,0%,0%,0.8);
   }
 `;

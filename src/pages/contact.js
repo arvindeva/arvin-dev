@@ -6,7 +6,7 @@ import Contact from '../components/Contact';
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contact" description="arvindeva wibisono" />
     <Contact />
   </Layout>
 );
