@@ -26,7 +26,7 @@ const Home = () => (
     <h2>Skills</h2>
     <p>
       HTML, CSS, JavaScript, ES6, Node.js, React, Redux, MobX, GraphQL, Apollo
-      Client/Server, Styled Components, Sass, Webpack, Express, git.
+      Client/Server, Styled Components, Sass, Webpack, Express, git, SQL, MongoDB.
     </p>
   </StyledHome>
 );
