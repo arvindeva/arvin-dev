@@ -5,16 +5,19 @@ import Link from '../Link';
 
 const StyledMobileLinks = styled.div`
   text-align: center;
+  padding-top: 3rem;
 `;
 
 const MobileLinks = () => (
   <StyledMobileLinks>
-    <div>
-      <Link to="/portfolio">Portfolio</Link>
-    </div>
-    <div>
-      <Link to="/contact">Contact</Link>
-    </div>
+    <ul>
+      <li>
+        <Link to="/portfolio">Portfolio</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact</Link>
+      </li>
+    </ul>
   </StyledMobileLinks>
 );
 

@@ -23,7 +23,6 @@ const StyledHeader = styled.header`
     max-width: 800px;
     .title {
       margin: 0;
-      
     }
   }
 
