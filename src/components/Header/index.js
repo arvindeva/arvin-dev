@@ -33,7 +33,7 @@ const StyledHeader = styled.header`
   }
 `;
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const [open, setOpen] = useState(false);
 
   const onOpen = () => {
@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => {
       <div className="wrapper">
         <div>
           <h1 className="title">
-            <Link to="/">{siteTitle}</Link>
+            <Link to="/">arvin.dev</Link>
           </h1>
         </div>
         <MobileOnly>
