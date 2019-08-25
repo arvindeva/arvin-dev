@@ -25,8 +25,8 @@ const Home = () => (
     </p>
     <h2>Skills</h2>
     <p>
-      HTML, CSS, JavaScript, ES6, TypeScript. Node.js, React, Redux, MobX,
-      GraphQL, Apollo Client/Server, Styled Components, Emotion, Styled System,
+      HTML, CSS, JavaScript, ES6, TypeScript, Node.js, React, Redux, MobX,
+      GraphQL, Apollo Client/Server, Emotion, Styled Components, Styled System,
       Sass, Webpack, Express, git, SQL, MongoDB, Jest, Enzyme, Testing Library,
       Storybook, Cypress, Selenium.
     </p>
