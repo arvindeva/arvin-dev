@@ -27,8 +27,8 @@ const Home = () => (
     <p>
       HTML5, CSS3, JavaScript, ES6, TypeScript, Node.js, React, Redux, MobX,
       GraphQL, Apollo Client/Server, Emotion, Styled Components, Styled System,
-      Sass, Webpack, Express, git, SQL, MongoDB, Jest, Enzyme, Testing Library,
-      Storybook, Cypress, Selenium.
+      Sass, SVG, Webpack, Express, git, SQL, MongoDB, Jest, Enzyme, Testing
+      Library, Storybook, Cypress, Selenium.
     </p>
   </StyledHome>
 );
