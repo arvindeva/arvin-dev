@@ -20,8 +20,9 @@ const Home = () => (
     <p>
       I'm <b>Arvindeva Wibisono</b> (<b>Arvin</b>), a <b>front-end developer</b>{' '}
       currently working at <b>Warung Pintar</b>. I make websites and web
-      applications, mostly using <b>React</b>. Feel free to check my projects at
-      my <UnderlinedLink to="/portfolio">Portfolio</UnderlinedLink> page.
+      applications, mostly using <b>React</b>. Feel free to check my projects
+      (and upcoming ones) at my{' '}
+      <UnderlinedLink to="/portfolio">Portfolio</UnderlinedLink> page.
     </p>
     <h2>Skills</h2>
     <p>
